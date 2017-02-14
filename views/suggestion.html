@@ -1,0 +1,4 @@
+<div ng-repeat="comment in comments">
+	<p> {{comment.body}}</p>
+	<span class="glyphicon glyphicon-plus-sign" ng-click="upVote(comment, $index)"></span> Upvotes: {{comment.upvotes}} </p>
+</div>
